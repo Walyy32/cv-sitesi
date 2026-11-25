@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enes Kır - Özgeçmiş</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            color: #222;
+            line-height: 1.4;
+            background-color: #ffffff;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 11pt;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #2c3e50;
+        }
+
+            header h1 {
+                font-size: 24pt;
+                color: #1a252f;
+                margin-bottom: 5px;
+            }
+
+            header h2 {
+                font-size: 13pt;
+                color: #555;
+                font-weight: normal;
+                margin-bottom: 8px;
+            }
+
+        .contact-info {
+            font-size: 10pt;
+            color: #444;
+        }
+
+            .contact-info span {
+                margin: 0 8px;
+            }
+
+        section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            font-size: 13pt;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 8px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .skill-group h3 {
+            font-size: 11pt;
+            color: #1a252f;
+            margin-bottom: 4px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+
+        .projects-list {
+            list-style-type: disc;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+            .projects-list li {
+                margin-bottom: 6px;
+            }
+
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Enes Kır</h1>
+        <h2>Otonom Sistemler Teknikeri Adayı</h2>
+        <div class="contact-info">
+            <span>📍 Bursa / Mustafakemalpaşa </span> |
+            <span>✉️ eneskiroglu16@gmail.com</span> |
+            <span>📞 0543 113 84 86</span>
+        </div>
+    </header>
+
+    <section>
+        <h2 class="section-title">Hakkımda</h2>
+        <p>
+            Merhaba, ben Enes. 19 yaşındayım ve Mehmet Akif Ersoy Üniversitesi (MAKÜ) <strong>Otonom Sistemler Teknikerliği</strong> bölümünde eğitim almaktayım. Makine elemanları, SolidWorks 3D, elektronik devre tasarımı ve C# tabanlı masaüstü arayüz programlama konularında kendimi aktif olarak geliştiriyorum.
+        </p>
+        <p>
+            Bursa, Mustafakemalpaşa'da edindiğim işletmecilik tecrübem sayesinde kriz yönetimi, sorumluluk bilinci ve donanım sorunlarını hızlı çözme yetenekleri kazandım. En büyük akademik hedefim, ön lisans eğitimimi tamamladıktan sonra <strong>2027 DGS (Dikey Geçiş Sınavı)</strong> ile mühendislik fakültesine geçiş yapmaktır. Öğrendiğim teorik ve pratik bilgileri, disiplinli bir takım çalışması içinde gerçek dünya projelerine dönüştürebileceğim bir staj fırsatı arıyorum.
+        </p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Beceriler & Akademik Eğitim</h2>
+        <div class="grid-container">
+            <div class="skill-group">
+                <h3>Gömülü Sistem & Masaüstü Yazılım</h3>
+                <ul>
+                    <li>Arduino (C++) ile I2C LCD, RFID, LED matris kontrolü</li>
+                    <li>Çift mikrodenetleyici arası UART seri haberleşme</li>
+                    <li>C# Windows Forms mimarisi ile donanım kontrolü</li>
+                    <li>double.TryParse, Dictionary, ListBox ile UI tasarımı</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Mekanik Tasarım & İmalat</h3>
+                <ul>
+                    <li>Autodesk ve SolidWorks ile Teknik Çizim</li>
+                    <li>3D Modelleme ve Katı Model Tasarımı</li>
+                    <li>CNC Frezeleme ve Torna Operasyonları</li>
+                    <li>Bilgisayar Destekli Tasarım ve İmalat (CAD/CAM)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Yazılım & Algoritma Dersleri</h3>
+                <ul>
+                    <li>Nesne Tabanlı Programlama I</li>
+                    <li>Yapay Zeka Uygulamaları</li>
+                    <li>Mobil Programlama</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Elektronik & Mekanik Dersleri</h3>
+                <ul>
+                    <li>Mikrodenetleyiciler & Sayısal Elektronik</li>
+                    <li>Güç Elektroniği & Elektrik Makineleri</li>
+                    <li>Robotik Sistemler & Makine Elemanları</li>
+                    <li>CNC Teknolojisi, Hidrolik ve Pnömatik</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Projelerim</h2>
+        <ul class="projects-list">
+            <li>TEKNOFEST Akıllı Tarım İzleme Sistemi</li>
+            <li>Spotify Dot Matrix</li>
+            <li>Arduino Servo Radar</li>
+        </ul>
+    </section>
+
+</body>
+</html>
